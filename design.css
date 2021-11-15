@@ -1,0 +1,74 @@
+#menu{
+    list-style-type: none;
+    padding-left:5px;
+   height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(pink, rgb(170, 225, 247));
+
+    overflow: auto;
+   
+}
+#menu li{
+    float: left;
+    padding-left: 2px;
+  
+}
+
+#menu li a{
+    background-color: rgb(142, 196, 209);
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+   
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    
+   
+}
+#menu li a:hover{
+    background-color: pink;
+    border-radius: 6px;
+    
+   
+}
+#menu .submenu li{
+    float: none;
+    margin-top: 40px;
+    
+    
+
+}
+#menu .submenu li a{
+background-color: rgb(250, 104, 172);
+    border-radius: 6px;
+
+}
+
+.submenu{
+    display: none;
+    list-style-type: none;
+    padding-left: 1px;
+    position: absolute;
+    
+}
+#menu .submenu li a:hover{
+    background-color: rgb(187, 115, 255);
+    border-radius: 8px;
+    
+}
+#menu li:hover .submenu{
+    display: block;
+    
+    
+}
+
+h1{
+    color:rgb(144, 192, 219);
+    text-align: center;
+    font-family:'Arial Narrow';
+}
+
+
+
+
